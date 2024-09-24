@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <script src="./js/javasso.js"></script>
+    <title>Estacionamento</title>
+</head>
+<body>
+
+    <div class="div_principal">
+
+        <img src="./img/Sistema-para-estacionamentos-1.jpg" alt="Estacionamento" title="Estacionamento"/>
+
+        <h1>Dados do cliente</h1>
+
+    <form id="formula">
+
+        <div class="div_sec">
+
+            <div class="nome">
+                <input type="text" id="caixa_nome" placeholder="Digite o nome do Cliente"/> <br/>
+            </div>
+            
+            <br/>
+
+            <div class="placamodelo">
+                <input type="text" id="caixa_placa" placeholder="Digite a placa"/>
+                <br/>
+                <input type="text" id="caixa_modelo" placeholder="Digite o modelo do carro"/> <br/>
+            </div>
+            
+            <br/>
+
+            <div class="diasvalor">
+                <input type="text" id="caixa_dias" placeholder="Digite quantos dias"/>
+                <br/>
+                <input type="text" id="caixa_valor" placeholder="Digite o valor da diária"/> <br/>
+            </div>
+            
+            <br/>
+    </form>
+
+            <div class="div_botoes">
+                <button onClick="calcular(event)">Calcular</button>
+                <button onClick="apagar()">Limpar</button>
+                <button onClick="sair()">Sair</button>
+            </div>
+
+
+
+        <h2>Resumo</h2>
+
+    <div class="resultados">
+        <input type="text" id="nome_cliente" readonly/>
+        <input type="text" id="placa_cliente" readonly/>
+        <input type="text" id="modelo_cliente" readonly/>
+        <input type="text" id="dias_cliente" readonly/>
+        <input type="text" id="valor_cliente" readonly/>
+        <input type="text" id="desconto_cliente" readonly/>
+    </div>
+
+</div>
+
+</body>
+</html>

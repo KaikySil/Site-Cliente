@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.div_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 480px;
+    height: 130px;
+}
+
+.formula{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272727;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nome input{
+    border: 3px solid rgb(8, 3, 80);
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+}
+
+.placamodelo{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.placamodelo input{
+    border: 3px solid rgb(8, 3, 80);
+    border-radius: 10px;
+    width: 195px;
+    height: 20px;
+}
+
+.diasvalor{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.diasvalor input{
+    border: 3px solid rgb(8, 3, 80);
+    border-radius: 10px;
+    width: 195px;
+    height: 20px;
+}
+
+
+.div_botoes{
+    display: flex;
+    gap: 10px;
+    width: 409px;
+    justify-content: center;
+}
+
+.div_botoes button{
+    border: 1px solid rgb(8, 3, 80);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+    width: 136px;
+}
+
+
+.resultados{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+.resultados input{
+    background-color: rgb(43, 43, 43);
+    border: none;
+    color: white;
+    font-size: large;
+    width: 380px;
+    height: 20px;
+}
+
